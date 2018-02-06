@@ -1,5 +1,6 @@
 a{
   text-decoration: none;
+  float: right;
 }
 
 div.linkbox {
@@ -20,4 +21,10 @@ div.linkbox {
 
 .linkbox:hover {
   background-color: rgba(147, 153, 101, 0.35);
+}
+
+#border {
+  height: 800px;
+  width: 1000px;
+  border: 5px solid black;
 }
