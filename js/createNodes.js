@@ -1,7 +1,8 @@
 var counter = 0;
 var div = [];
 var positions = JSON.parse(localStorage.getItem("jPositions"));
-if(positions.length > 0){
+console.log(positions)
+if(positions != null){
   for(var i=0; i<positions.length;i++){
     createNodes(positions[i]);
   }
